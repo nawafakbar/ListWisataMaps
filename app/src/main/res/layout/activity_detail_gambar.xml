@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Wisata"
+        android:gravity="center"
+        android:id="@+id/txt_judul"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon3"
+        android:id="@+id/txt_gambar"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/txt_judul"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Wisata"
+        android:gravity="center"
+        android:id="@+id/txt_des"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_gambar"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_des"
+        android:text="gasken"
+        android:id="@+id/gas"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="35dp"/>
+
+</RelativeLayout>
